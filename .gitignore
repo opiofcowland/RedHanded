@@ -1,0 +1,80 @@
+# Windows image file caches
+
+Thumbs.db
+ehthumbs.db
+
+
+
+# Folder config fil
+e
+Desktop.ini
+
+
+
+# Recycle Bin used on file shares
+
+$RECYCLE.BIN/
+
+
+
+# Windows Installer files
+
+*.cab
+
+*.msi
+
+*.msm
+
+*.msp
+
+
+
+# eclipse metadata files and RedHanded/bin
+ and appcompat_v7
+appcompat_v7
+.metadata
+
+RedHanded/bin
+
+RedHanded/gen
+
+RedHanded/.settings
+RedHanded/.classpath
+RedHanded/.project
+
+# =========================
+
+# Operating System Files
+
+# =========================
+
+
+# OSX
+
+# =========================
+
+
+.DS_Store
+
+.AppleDouble
+
+.LSOverride
+
+
+
+# Icon must ends with two \r
+.
+Icon
+
+
+
+# Thumbnails
+
+._*
+
+
+
+# Files that might appear on external disk
+
+.Spotlight-V100
+.Trashes

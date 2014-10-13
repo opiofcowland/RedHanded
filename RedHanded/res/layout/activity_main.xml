@@ -1,0 +1,50 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+	<TextView android:id="@+id/file_view"
+	    android:layout_width="match_parent"
+	    android:layout_height="0dp" 
+	    android:layout_weight="1"
+	    android:clickable="true"
+	    android:scrollbars="vertical"
+    	android:scrollbarStyle="insideOverlay"
+    	android:fadeScrollbars="true"
+		android:fadingEdge="vertical" 
+		android:textSize="14sp" />
+	
+	<CheckBox android:id="@+id/checkout_checkbox"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content" 
+	    android:text="@string/checkbox_checkout"
+	    android:onClick="setCheckinButtonText" />
+	
+	<CheckBox android:id="@+id/picture_checkbox"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content" 
+	    android:text="@string/checkbox_picture" />
+	
+	<CheckBox android:id="@+id/location_checkbox"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content" 
+	    android:text="@string/checkbox_location" />
+	
+	<LinearLayout android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="horizontal" >
+	
+		<EditText android:id="@+id/note_text"
+		    android:layout_width="0dp"
+		    android:layout_height="wrap_content"
+		    android:hint="@string/note_hint"
+		    android:layout_weight="1" />
+		
+		<Button android:id="@+id/checkin_button"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:text="@string/button_checkin"
+		    android:onClick="updateFile" />
+	</LinearLayout>
+</LinearLayout>
